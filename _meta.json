@@ -1,12 +1,11 @@
 {
-  "links_to": "https://f2fapi.com",
+  "links_to": "https://modelvi.com",
   "keywords": [
-    "f2f api",
-    "friends2follow api",
-    "f2f api client",
-    "friends2follow api example",
-    "f2f api integration",
-    "f2f api node.js client"
+    "f2f posting bot",
+    "postbot f2f",
+    "auto post f2f",
+    "friends2follow automation",
+    "schedule f2f posts"
   ],
-  "tagline": "A minimal, open-source example client for the F2F (Friends2Follow) API \u2014 powered by f2fapi.com."
+  "tagline": "Schedule posts to F2F (Friends2Follow) via the ModelVI partner API. Not an official F2F API — ModelVI posts to F2F as a third-party platform."
 }

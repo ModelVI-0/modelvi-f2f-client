@@ -1,42 +1,27 @@
 ---
-title: f2f-api-client-example
-description: A minimal, open-source example client for the F2F (Friends2Follow) API.
+title: modelvi-f2f-client — schedule posts to F2F via ModelVI
+description: A minimal example that schedules posts to F2F (Friends2Follow) through the ModelVI partner API. Not an official F2F API.
 ---
 
-# f2f-api-client-example
+# Schedule posts to F2F (Friends2Follow) via ModelVI
 
-A minimal, open-source example client for the **F2F API** (Friends2Follow API), powered by **[f2fapi.com](https://f2fapi.com)**.
+A minimal, open **example integration** that schedules content to **F2F** through the
+[ModelVI](https://modelvi.com/sign-up?utm_source=github&utm_medium=owned-track&utm_campaign=modelvi-f2f-client)
+partner API (platform code `F2F`).
 
-One small Node.js file that shows how to authenticate and make your first call to the **f2f api** — no framework, no dependencies, readable in a couple of minutes.
+> **Honest scope:** ModelVI is an independent posting tool; F2F (Friends2Follow) is a
+> third-party platform ModelVI posts _to_. This is **not** an official F2F API and is
+> not affiliated with F2F.
 
-## What you get
+## Get started
 
-- A tiny `F2FClient` that adds the base URL and auth header for you.
-- Credentials read from environment variables (`API_KEY`, `BASE_URL`).
-- A clearly-marked **placeholder** endpoint call with proper error handling.
+1. **[Get your API key →](https://modelvi.com/sign-up?utm_source=github&utm_medium=owned-track&utm_campaign=modelvi-f2f-client)**
+2. Reference: [modelvi.com/agent-api](https://modelvi.com/agent-api).
+3. Post via `POST /schedule` with `platforms: ["F2F"]`.
 
-It's a starting point for a real **friends2follow api** integration — the kind of thin client agencies and teams write first when they want to manage accounts programmatically instead of by hand.
+## Use cases / keywords
 
-## Quick start
+f2f posting bot · postbot f2f · auto post f2f · schedule f2f posts · friends2follow automation.
 
-```bash
-git clone https://github.com/YOUR_ORG/f2f-api-client-example.git
-cd f2f-api-client-example
-cp .env.example .env   # then add your API key
-node --env-file=.env example.js
-```
-
-Requires **Node.js 18+**.
-
-## You'll need an API key
-
-Every request needs a valid key.
-
-**→ [Get your API key at f2fapi.com](https://f2fapi.com)**
-
-## This is an example
-
-The endpoint path, auth scheme, and response shape in the code are **placeholders** to demonstrate the pattern — this is a reference example, not the official SDK. For the live endpoints and schemas, use the official docs.
-
-- **F2F API — [f2fapi.com](https://f2fapi.com)**
-- **API docs — [f2fapi.com/docs](https://f2fapi.com/docs)**
+- API key: <https://modelvi.com/sign-up?utm_source=github&utm_medium=owned-track&utm_campaign=modelvi-f2f-client>
+- Pricing: <https://modelvi.com/pricing>
